@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "lib": [
+      "ESNext"
+    ]
+  },
+  "include": [
+    "vite.config.ts",
+    "plugin/**/*.ts"
+  ]
+}

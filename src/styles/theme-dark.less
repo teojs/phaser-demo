@@ -1,0 +1,41 @@
+/* 黑暗模式 */
+
+[data-theme='dark'] {
+  /* ElementUI 黑暗主题 */
+
+  --topbar-bg: #000000;
+  --topbar-font: #ececec;
+  --bg-black: #ececec;
+  --bg-white: #000000;
+  --bg-gray: #242424;
+  --bg-red: #871515;
+  --bg-green: #18a058;
+  --bg-light-gray: #151515; // 亮灰色背景
+  --bg-login: #000000;
+  --bg-login-form: #242424;
+  --font-black: #dedcd9;
+  --font-white: #303133;
+  --font-blue: #009cff;
+  --font-red: #ff5555;
+  --font-green: #579836;
+  --font-orange: #9f6c20;
+  --font-gray: #83888a;
+  --font-light-gray: #565c5f;
+
+  /* 滚动条优化 */
+  ::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #5f5f5f;
+    background-clip: padding-box;
+    min-height: 28px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #9e9e9e;
+  }
+}

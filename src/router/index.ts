@@ -45,8 +45,8 @@ router.afterEach((to, from, failure) => {
     return
   }
   const title = to.meta.title
-    ? to.meta.title + ' - 后台管理模板'
-    : '后台管理模板'
+    ? to.meta.title + ' - Phaser Demo'
+    : 'Phaser Demo'
   document.title = title
   loadingBar.finish()
 })
